@@ -1,39 +1,34 @@
 # 📝 Student ToDo List DApp
 
-A **Blockchain-based decentralized ToDo List application** designed for students.  
-This DApp allows users to securely manage their tasks using **Ethereum blockchain**, ensuring transparency, immutability, and wallet-based ownership.
+![Solidity](https://img.shields.io/badge/Solidity-363636?logo=solidity&logoColor=white)
+![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?logo=ethereum&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
+![Web3.js](https://img.shields.io/badge/Web3.js-F16822?logo=web3.js&logoColor=white)
+![Truffle](https://img.shields.io/badge/Truffle-5E464D?logo=ethereum&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-blue)
+
+A **blockchain-based decentralized ToDo List application** designed for students. This DApp allows users to securely manage their tasks using the **Ethereum blockchain**, ensuring transparency, immutability, and wallet-based ownership.
 
 ---
 
-## 🚀 Project Overview
+## ✨ Features
 
-The **Student ToDo List DApp** enables users to:
-- Connect their wallet using **MetaMask**
-- Add, view, update, and complete tasks
-- Store tasks **on-chain** using smart contracts
-- Access their own tasks using their Ethereum address
-
-Each wallet address acts as a **unique student identity**, ensuring privacy and decentralized control.
-
----
-
-## 🧠 Key Features
-
-- 🔐 MetaMask Wallet Authentication  
-- 📦 Tasks stored securely on Ethereum Blockchain  
-- 🧾 Add, update, complete, and delete tasks  
-- 👤 Wallet-based task ownership  
-- 🔄 Auto-detects network & contract address  
-- ⚡ Real-time blockchain interaction  
+- 🔐 **MetaMask Wallet Authentication** — Connect your wallet to get started
+- 📦 **On-Chain Storage** — Tasks stored securely on the Ethereum blockchain
+- ➕ **Full CRUD** — Add, update, complete, and delete tasks
+- 👤 **Wallet-Based Ownership** — Each wallet is a unique student identity
+- 🔄 **Auto Network Detection** — Automatically detects network & contract address
+- ⚡ **Real-Time Interaction** — Instant blockchain reads and writes
 
 ---
 
 ## 🛠️ Tech Stack
 
 | Layer | Technology |
-|-----|-----------|
+|-------|-----------|
 | Smart Contract | Solidity |
-| Blockchain | Ethereum (Ganache – Local) |
+| Blockchain | Ethereum (Ganache — Local) |
 | Framework | Truffle |
 | Frontend | React.js |
 | Blockchain API | Web3.js |
@@ -69,75 +64,68 @@ student-todo-dapp/
 
 ---
 
-## ⚙️ Installation & Setup (Windows)
+## 🚀 Setup
 
-### 🔹 Prerequisites
+### Prerequisites
+
 - Node.js (v16+)
 - Truffle (`npm install -g truffle`)
 - Ganache
 - MetaMask
 
-### 🔹 Clone Repository
-```
+### Installation
+
+```bash
 git clone https://github.com/mtahanaeem/student-todo-dapp.git
 cd student-todo-dapp
-```
 
-### 🔹 Install Dependencies
-
-Backend:
-```
+# Install backend
 cd backend
 npm install
-```
 
-Frontend:
-```
+# Install frontend
 cd ../frontend
 npm install
 ```
 
-### 🔹 Start Ganache
-- Open Ganache
-- Create workspace
-- Copy RPC URL & Mnemonic
-- Import mnemonic into MetaMask
+### Start Ganache
 
-### 🔹 Compile & Deploy Smart Contract
-```
+Open Ganache, create a workspace, copy the RPC URL & mnemonic, then import the mnemonic into MetaMask.
+
+### Compile & Deploy Smart Contract
+
+```bash
 truffle compile
 truffle migrate --reset
 ```
 
-### 🔹 Run Backend (Optional)
-```
+### Run Backend (Optional)
+
+```bash
 cd backend
 node server.js
 ```
 
-### 🔹 Run Frontend
-```
+### Run Frontend
+
+```bash
 cd frontend
 npm start
 ```
 
-App runs at `http://localhost:3000`
+App runs at **http://localhost:3000**
 
 ---
 
 ## 🔐 MetaMask & Ganache Accounts
 
-Ganache provides 10 test accounts.  
-Switch MetaMask accounts to act as different users.  
-Each account has its own tasks stored on-chain.
+Ganache provides 10 test accounts. Switch MetaMask accounts to act as different users. Each account has its own tasks stored on-chain.
 
 ---
 
 ## 🎓 Academic Purpose
 
 Developed as a **Blockchain course project** demonstrating smart contracts, Web3, and decentralized architecture.
-
----
 
 ## 🙏 Acknowledgment
 
@@ -147,5 +135,7 @@ Special thanks to **Ms. Syeda Tayyaba Bukhari** for her guidance and support.
 
 ## 👤 Author
 
-**Muhammad Taha Naeem**  
-GitHub: https://github.com/mtahanaeem
+**Muhammad Taha Naeem**
+
+- 📧 muhamadtahanaeem.pro@gmail.com
+- 🐙 [mtahanaeem](https://github.com/mtahanaeem)
